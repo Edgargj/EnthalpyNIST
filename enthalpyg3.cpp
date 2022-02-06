@@ -239,7 +239,7 @@ double EnthalpyG3::EnthalpyResult(EnthalpyInputData &input){
         cout << "                      New calculation of molecular enthalpies of formation                         " << endl;
         cout << "                                                                                                   " << endl;
         cout << "              Enthalpies of formation of gaseous atoms at 0 K and thermal corrections              " << endl;
-        cout << "                       for elements in their standard state at 298.16 K from:                      " << endl;
+        cout << "                       for elements in their standard state at 298.15 K from:                      " << endl;
         cout << "                                                                                                   " << endl;
         cout << "       NIST-JANAF Thermochemical Tables J. Physics Chem. Data Monograph 9, 1998, 1-1951.           " << endl;
         cout << "===================================================================================================" << endl;
