@@ -254,7 +254,7 @@ double EnthalpyG3MP2::EnthalpyResult(EnthalpyInputData &input){
         cout << "298K        " << EnthalpyTS(input) << " kJ mol-1" << endl;
         cout << "298K        " << EnthalpyTS_kcal(input) << " kcal mol-1" << endl;
         cout << "                                                                                                   " << endl;
-        cout << "Using G3MP2: " << endl;
+        cout << "Using G3MP2 Enthalpy: " << endl;
         cout << "298K        " << DeltaH_f298k(input) << " kJ mol-1" << endl;
         cout << "298K        " << DeltaH_f298k_kcal(input) << " kcal mol-1" << endl;
         cout << "                                                                                                   " << endl;
