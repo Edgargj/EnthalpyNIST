@@ -8,7 +8,7 @@ You can obtain the source code of EnthalpyNIST as follows.
 In your bash terminal type:
 
 ~~~~~~~~~~
-$cd /local/path/to/EnthalpyG4
+$cd /local/path/to/EnthalpyNIST
 $git clone https://github.com/Edgargj/EnthalpyNIST.git
 ~~~~~~~~~~
 
