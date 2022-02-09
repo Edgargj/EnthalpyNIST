@@ -25,7 +25,7 @@ double EnthalpyG3MP2::DeltaH_Elements(int atn){
 double EnthalpyG3MP2::SumDeltaH_a0k(EnthalpyInputData &input){
 
 	double DeltaH_a0k = 0.0;
-	double DeltaH_aElements = 0.0;
+	double DeltaH_aelements = 0.0;
 	double DeltaE_0kmolecule = input.energy;
 	double antemp, natmp;
 	const double htokj = 2625.4997480;
@@ -34,8 +34,8 @@ double EnthalpyG3MP2::SumDeltaH_a0k(EnthalpyInputData &input){
 
 		antemp = DeltaH_Elements(input.atomic_number[i]);
 		natmp = input.number_atoms[i];
-		DeltaH_aElements += antemp * natmp;
-		DeltaH_a0k = (DeltaH_aElements - DeltaE_0kmolecule) * htokj;
+		DeltaH_aelements += antemp * natmp;
+		DeltaH_a0k = (DeltaH_aelements - DeltaE_0kmolecule) * htokj;
 
 
 	}
