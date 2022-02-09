@@ -1,6 +1,6 @@
-#EnthalpyNIST
+# EnthalpyNIST
 
-EnthalpyNIST is a program that calculates the enthalpies of formation (by the Gaussian G4, G3, G3MP2, CBS-APNO and CBS-QB3 method) of gaseous atoms at 0 K and thermal corrections for elements in their standard state at 298.16 K from: NIST-JANAF Thermochemical Tables J. Physics Chem. Data Monograph 9, 1998, 1-1951.
+EnthalpyNIST is a program that calculates the enthalpies of formation (by the Gaussian09 G4, G3, G3MP2, CBS-APNO and CBS-QB3 method) of gaseous atoms at 0 K and thermal corrections for elements in their standard state at 298.16 K from: NIST-JANAF Thermochemical Tables J. Physics Chem. Data Monograph 9, 1998, 1-1951.
 
 # Git instructions
 
