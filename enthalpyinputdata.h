@@ -1,7 +1,5 @@
 #ifndef _ENTHALPYINPUTDATA_H_
 #define _ENTHALPYINPUTDATA_H_
-//Esta clase lee archivos linea por linea
-//using namespace std;
 
 #include <iostream>
 #include <cstdlib>
