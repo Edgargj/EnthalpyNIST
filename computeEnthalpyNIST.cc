@@ -20,7 +20,7 @@ int main (int argc, char *argv[])
 	datainput.ReadData(inputname);
 	
 	Method method;
-	cout << method.ComputeEnthalpy(datainput) << endl;
+	method.ComputeEnthalpy(datainput);
 	
 	return 0;
 }

@@ -230,7 +230,7 @@ double EnthalpyG3MP2::EnthalpyTS_kcal(EnthalpyInputData &input){
 
 /* ***********************************************G3MP2*********************************************** */
 
-double EnthalpyG3MP2::EnthalpyResult(EnthalpyInputData &input){
+double EnthalpyG3MP2::PrintResult(EnthalpyInputData &input){
 
 	MethodType MethodNorRRHO;
 

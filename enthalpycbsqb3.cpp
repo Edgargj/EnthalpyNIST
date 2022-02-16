@@ -230,7 +230,7 @@ double EnthalpyCBSQB3::EnthalpyTS_kcal(EnthalpyInputData &input){
 
 /* ***********************************************CBS-QB3*********************************************** */
 
-double EnthalpyCBSQB3::EnthalpyResult(EnthalpyInputData &input){
+double EnthalpyCBSQB3::PrintResult(EnthalpyInputData &input){
 
 	MethodType MethodNorRRHO;
 

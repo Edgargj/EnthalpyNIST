@@ -35,7 +35,7 @@ public:
 	double EnthalpyTS_kcal(EnthalpyInputData &input);
 
 	//Resultado
-	double EnthalpyResult(EnthalpyInputData &input);
+	double PrintResult(EnthalpyInputData &input);
 
 /* *********************************************************************************** */ 
 	protected:
